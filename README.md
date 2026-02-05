@@ -1,15 +1,20 @@
-# Fashion - Modern E-Commerce Storefront: 🛍️👗
-**Fashion** a responsive e-commerce web application built with the latest React 19, Bootstrap 5 and Vite. This project has a scalable architecture, centralized data management, and focuses on a seamless shopping experience for the fashion industry, emphasizing speed, scalability, and a refined UI/UX.
+# Fashion -Backend-server: 🛍️👗
+**Fashion-Backend-server** Node.js and Express.js backend that serves as a dedicated API gateway for Stripe payment integration.
 
 ---
+
+**Server**
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Stripe](https://img.shields.io/badge/Stripe-Payments%20API-635BFF?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/docs)
+[![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
-[![SweetAlert2](https://img.shields.io/badge/SweetAlert2-JS%20popup%20library-purple?style=flat-square)](https://sweetalert2.github.io/)
+[![npm version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
+[![Postman](https://img.shields.io/badge/Postman-API_Testing-orange?logo=postman&logoColor=white)](https://www.postman.com)
+[![dotenv](https://img.shields.io/badge/dotenv-Environment_Variables-yellow?logo=dotenv&logoColor=black)](https://github.com/motdotla/dotenv)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=flat-square&logo=githubactions&logoColor=white)
+
 
 ## Soon:
 [![Docker](https://img.shields.io/badge/docker-coming_soon-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
@@ -17,17 +22,17 @@
 ---
 
 ## Live Demo 🚀
+
+* **Frontend:**
+
 #### [🌐Explore Live Site](https://fashion-storefront.netlify.app/)
+ [https://fashion-storefront.netlify.app](https://fashion-storefront.netlify.app)
 
 
-## Key Features & Architecture: 🛠️
-`Optimized Rendering`: Built with `React 19`
+* **API Server:** 
 
-`Responsive Engine`: Implements a Mobile-First approach using `Bootstrap 5` and custom `CSS3` for flawless display across all devices.
+[https://fashion-server-production.up.railway.app](https://fashion-server-production.up.railway.app)
 
-`Modern Routing`: by `React Router` v7 and a custom `ScrollToTop` logic for enhanced `SPA UX`.
-
----
 
 ## License: 📄
 MIT License
@@ -37,13 +42,18 @@ MIT License
 ## Installation: 
 Clone the repository:
 ```bash
-git clone https://github.com/Wahab-Al/Fashion.git
+git clone https://github.com/Wahab-Al/Fashion-backend-server.git
 
 ## Navigate to the project directory: 📂
-cd Fashion
+cd 
 
 ## Run the application: ▶️
 npm install
 
-npm run dev
-# Fashion-Full-Stack
+# Create a .env file and add your VITE_STRIPE_PUBLISHABLE_KEY
+
+node src/server.js
+
+
+📡 API Endpoints
+POST /api/payment/create-payment-intent
