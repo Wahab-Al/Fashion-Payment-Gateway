@@ -1,8 +1,7 @@
-<div align="center">
-
 # 🛍️ Fashion-Payment-Gateway
 **A Dedicated Payment Service for Secure Stripe Integration**
 
+[![Postman Docs](https://img.shields.io/badge/Postman-Documentation-orange?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/51361413/2sBXcBo3DA)
 [![Platform: Railway](https://img.shields.io/badge/Platform-Railway-lightgrey?style=for-the-badge&logo=railway)](https://fashion-server-production.up.railway.app)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -15,6 +14,7 @@
 [![dotenv](https://img.shields.io/badge/dotenv-Environment_Variables-yellow?logo=dotenv&logoColor=black)](https://github.com/motdotla/dotenv)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=flat-square&logo=githubactions&logoColor=white)
 
+
 ## Soon:
 [![Docker](https://img.shields.io/badge/docker-coming_soon-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
 
@@ -25,8 +25,6 @@ This is a standalone **Node.js & Express.js** backend engineered to handle secur
 This service is the payment engine for:
 [🌐Fashion](https://fashion-storefront.netlify.app/) & [Github Repo](https://github.com/Wahab-Al/Fashion)
 [**API Endpoint**](https://fashion-server-production.up.railway.app/api/payment/create-payment-intent)
-
-</div>
 
 
 ### 🛠️ Technical Highlights
