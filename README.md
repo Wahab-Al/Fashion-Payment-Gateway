@@ -23,8 +23,7 @@ This is a standalone **Node.js & Express.js** backend engineered to handle secur
 
 ### 🔗 Integrated Projects
 This service is the payment engine for:
-[🌐Fashion](https://fashion-storefront.netlify.app/) & [Github Repo](https://github.com/Wahab-Al/Fashion)
-[**API Endpoint**](https://fashion-server-production.up.railway.app/api/payment/create-payment-intent)
+[🌐Fashion](https://fashion-storefront.netlify.app/) & [Github Repo](https://github.com/Wahab-Al/Fashion) & [**postman documentation**](https://documenter.getpostman.com/view/51361413/2sBXcBo3DA)
 
 
 ### 🛠️ Technical Highlights
